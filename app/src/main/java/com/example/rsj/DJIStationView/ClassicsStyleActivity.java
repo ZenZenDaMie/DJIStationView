@@ -46,12 +46,12 @@ public class ClassicsStyleActivity extends AppCompatActivity implements AdapterV
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
     private RefreshLayout mRefreshLayout;
-    private ClassicsHeader mClassicsHeader;
-    private Drawable mDrawableProgress;
     private static boolean isFirstEnter = true;
 
     public Gson gson = new Gson();
     public List<LogBean> lists;
+    private ClassicsHeader mClassicsHeader;
+    private Drawable mDrawableProgress;
     public BaseRecyclerAdapter<LogBean> mAdpater;
     public String title1;
     public String content1;

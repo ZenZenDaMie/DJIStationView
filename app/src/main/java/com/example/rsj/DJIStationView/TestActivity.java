@@ -167,6 +167,8 @@ public class TestActivity extends AppCompatActivity {
                                 text1.setText("充电站状态： 正在充电");
                             else if(log_respon.getStationstatus().equals("2"))
                                 text1.setText("充电站状态： 已充满");
+                            else if(log_respon.getStationstatus().equals("3"))
+                                text1.setText("充电站状态： 充电保护");
 
                             textid.setText("充电站ID："+log_respon.getStationid());
                             text2.setText("无人机电量："+log_respon.getPower());
